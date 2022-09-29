@@ -119,7 +119,7 @@ MainSection:AddToggle("Loop God Mode", "Keeps god mode on", false, function(bool
 end)
 
 -- Respawn/Reset
-MainSection:AddButton("Respawn", "Free respawn, no need to pay 15 robux!", function(P)
+MainSection:AddButton("Respawn", "Free respawn, no need to pay 15 robux!", function()
     local Reset = Events:FindFirstChild("Reset")
     local Respawn = Events:FindFirstChild("Respawn")
 
